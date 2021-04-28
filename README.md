@@ -1,6 +1,6 @@
-# Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [`Неизвестно`]( ).
+* Студент: [Самир Поладов](https://up.htmlacademy.ru/adaptive/20/user/1487923).
 * Наставник: `Неизвестно`.
 
 ---
@@ -24,19 +24,19 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `.travis.yml`,
 
 #### 2. Создайте форк
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/1487923-pink-20) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
+[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/1487923-sedona-20) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
 
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808088-259e3a80-a190-11e9-98f7-3c0edd9740f5.jpg">
+<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60807979-e1129f00-a18f-11e9-90d7-b44d2ff2c003.jpg">
 
 Получится вот так:
 
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808087-2505a400-a190-11e9-8caa-2e7584c702cc.jpg">
+<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60807980-e1129f00-a18f-11e9-8137-45876f130340.jpg">
 
 #### 3. Клонируйте репозиторий на свой компьютер
 
 Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
 
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808090-259e3a80-a190-11e9-8a64-c58d94803b73.jpg">
+<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60807982-e1129f00-a18f-11e9-98c4-0d3bf4b85cf1.jpg">
 
 Клонировать репозиторий можно так:
 
@@ -54,7 +54,7 @@ git clone SSH-адрес_вашего_форка
 
 Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS. Адаптивная вёрстка и автоматизация](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
 
-[travis-image]: https://travis-ci.com/htmlacademy-adaptive/1487923-pink-20.svg?branch=master
-[travis-url]: https://travis-ci.com/htmlacademy-adaptive/1487923-pink-20
-[dependency-image]: https://david-dm.org/htmlacademy-adaptive/1487923-pink-20/dev-status.svg?style=flat-square
-[dependency-url]: https://david-dm.org/htmlacademy-adaptive/1487923-pink-20?type=dev
+[travis-image]: https://travis-ci.com/htmlacademy-adaptive/1487923-sedona-20.svg?branch=master
+[travis-url]: https://travis-ci.com/htmlacademy-adaptive/1487923-sedona-20
+[dependency-image]: https://david-dm.org/htmlacademy-adaptive/1487923-sedona-20/dev-status.svg?style=flat-square
+[dependency-url]: https://david-dm.org/htmlacademy-adaptive/1487923-sedona-20?type=dev

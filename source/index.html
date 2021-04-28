@@ -1,12 +1,187 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
+<html class="page" lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Пинк</title>
+</head>
+<body class="page-body">
+	<header class="page-header">
+		<a href="" class="header-logo">Открыть меню</a>
+		<button class="main-nav__toggle"></button>
+		<nav class="main-nav">
+			<div class="main-nav__wrapper">
+				<ul class="main-nav__list site-list">
+					<li class="site-list__item">
+						<a href="">Главная</a>
+					</li>
+					<li class="site-list__item">
+						<a href="">Фотогалерея</a>
+					</li>
+					<li class="site-list__item">
+						<a href="">Конкурс</a>
+					</li>
+					<li class="site-list__item">
+						<a href="">HTML Academy</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main class="page-main">
+		<h1 class="visualy-hidden">Пинк</h1>
+		<section class="intro">
+			<h2 class="intro__title">Взгляните на жизнь иначе!</h2>
+			<img class="intro__image" src="" alt="">
+			<a href="" class="button">Скачать приложение</a>
+			<div class="intro__downloads-info">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 11</p>
+			</div>
+		</section>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+		<section class="features">
+			<h2 class="features-title">Устали от серости мегаполиса?</h2>
+			<h2 class="features-title">Нам есть, что вам предложить!</h2>
+			<ul class="features-list">
+				<li class="features-item">
+					<h3>Поднимает настроение</h3>
+					<p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+				</li>
+				<li class="features-item">
+					<h3>Меняет мир вокруг</h3>
+					<p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+				</li>
+				<li class="features-item">
+					<h3>Заводит новых друзей</h3>
+					<p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+				</li>
+			</ul>
+			<img src="" alt="" class="features-image">
+		</section>
 
-  </body>
+		<section class="research">
+			<h2 class="research-title">Эффект на 24 часа!</h2>
+			<img src="" alt="" class="research-image">
+			<p class="research-text">Британские ученые провели исследования и доказали,
+			что положительный эффект от использования приложения длится целые сутки!</p>
+			<a href="" class="research-link">Узнать больше об исследовании</a>
+		</section>
+
+		<section class="reviews">
+			<h2 class="visyally-hidden">Отзывы о нас</h2>
+			<div class="reviews__list slider-list">
+				<blockquote class="reviews__item slider-item">
+					<p class="reviews__text">
+						«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+					</p>
+					<div class="reviews__author-info">
+						<cite class="reviews__author-name">
+							Николай Петров
+						</cite>
+						<p class="reviews__author-descroption">
+							25 лет, водитель трамвая
+						</p>
+					</div>
+				</blockquote>
+				<blockquote class="reviews__item slider-item">
+					<p class="reviews__text">
+						«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+					</p>
+					<div class="reviews__author-info">
+						<cite class="reviews__author-name">
+							Николай Петров
+						</cite>
+						<p class="reviews__author-descroption">
+							25 лет, водитель трамвая
+						</p>
+					</div>
+				</blockquote>
+				<blockquote class="reviews__item slider-item">
+					<p class="reviews__text">
+						«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+					</p>
+					<div class="reviews__author-info">
+						<cite class="reviews__author-name">
+							Николай Петров
+						</cite>
+						<p class="reviews__author-descroption">
+							25 лет, водитель трамвая
+						</p>
+					</div>
+				</blockquote>
+				<button class="reviews__prev"></button>
+				<button class="reviews__next"></button>
+			</div>
+			<p class="reviews__toggles slider__toggles">
+				<button class="slider__toggle"></button>
+				<button class="slider__toggle slider__toggle--current"></button>
+				<button class="slider__toggle"></button>
+			</p>
+		</section>
+
+		<section class="price">
+
+		</section>
+
+		<section class="contacts">
+			<h2 class="contacts__title">
+				Остались вопросы? <br>
+				Свяжитесь с нами!
+			</h2>
+			<div class="contacts__wrapper">
+				<ul class="contacts__list">
+					<li class="contacts__item adress">
+						<h3 class="adress__title">Звоните:</h3>
+						<p class="adress__text">
+							+7 (812) 555-66-66
+						</p>
+					</li>
+					<li class="contacts__item adress">
+						<h3 class="adress__title">Приезжайте в гости:</h3>
+						<p class="adress__text">
+							ул. Большая Конюшенная, 19/8
+						</p>
+					</li>
+					<li class="contacts__item adress">
+						<h3 class="adress__title">Пишите:</h3>
+						<p class="adress__text">
+							mail@htmlacademy.ru
+						</p>
+					</li>
+
+				</ul>
+			</div>
+		</section>
+
+		<section class="map">
+
+		</section>
+
+	</main>
+
+	<footer class="page-footer">
+		<div class="page-footer__logo">
+			<img src="" alt="">
+		</div>
+		<div class="page-footer__social social">
+			<ul class="social__list">
+				<li class="social__item">
+					<a href="" class="social__link social__link--twitter"></a>
+				</li>
+				<li class="social__item">
+					<a href="" class="social__link social__link--facebook"></a>
+				</li>
+				<li class="social__item">
+					<a href="" class="social__link social__link--youtube"></a>
+				</li>
+			</ul>
+		</div>
+		<div class="page-footer__copyright copyright">
+			<b class="copyright__text">Разработано</b>
+			<a href="" class="copyright__link"></a>
+		</div>
+	</footer>
+</body>
 </html>
