@@ -1,4 +1,22 @@
-// Начните писать стили здесь
-p {
-	font-size: 72px;
-}
+// Color
+	// text
+$text: #283645;
+
+
+// $dark: #000;
+
+$white: #fff;
+
+
+
+
+@import "fonts.scss";
+@import "global.scss";
+@import "visually-hidden.scss";
+@import "viewports.scss";
+
+
+@import "page.scss";
+@import "page-header.scss";
+@import "main-nav.scss";
+

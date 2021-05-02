@@ -1,0 +1,18 @@
+// для head
+.page {
+	height: 100%;
+	font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 24px;
+}
+
+.page__body {
+	min-height: 100%;
+	margin: 0;
+	background-color: $white;
+	color: $text;
+}
+
+.page {
+	&__footer {}
+}
