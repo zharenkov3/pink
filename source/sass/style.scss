@@ -1,22 +1,21 @@
-// Color
-	// text
-$text: #283645;
+@import "../libs/slick.scss";
+
+@import "mixin/list-reset.scss";
+
+@import "helpers/fonts.scss";
+@import "helpers/visually-hidden.scss";
+@import "helpers/viewports.scss";
 
 
-// $dark: #000;
-
-$white: #fff;
-
-
-
-
-@import "fonts.scss";
 @import "global.scss";
-@import "visually-hidden.scss";
-@import "viewports.scss";
-
+@import "page.scss";
 
 @import "page.scss";
 @import "page-header.scss";
-@import "main-nav.scss";
+@import "intro.scss";
+
+@import "adaptive/desktop-1200.scss";
+@import "adaptive/tablet-768.scss";
+@import "adaptive/phone-320.scss";
+
 

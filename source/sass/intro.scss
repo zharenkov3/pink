@@ -1,0 +1,50 @@
+.intro {
+	width: 100%;
+	padding-top: 462px;
+	background-color: #1D2631;
+	background-color: tomato;
+	color: #fff;
+	&::before {
+		background: url();
+	}
+}
+.intro__title {
+	position: absolute;
+	top: 95px;
+
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	text-align: center;
+}
+.intro__content-wrapper {
+	margin: 0 auto;
+	width: 280px;
+	min-height: 271px;
+}
+.intro__image {
+}
+.intro__download-button {
+	display: block;
+	width: 100%;
+	padding: 17px;
+
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+
+	border: 3px solid white;
+	border-radius: 29px;
+}
+.intro__platform-list {
+	@include list-reset(0px);
+}
+
+.intro__platform-description {
+	font-weight: 300;
+	text-align: center;
+}

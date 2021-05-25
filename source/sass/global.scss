@@ -1,5 +1,61 @@
+// $h2-color: # ;
+// $h3-color: # ;
+// $text-color: # ;
+
+// $bg-light: # ;
+// $bg-dark: # ;
+// $accent: # ;
+
+// $white: # ;
+// $black: # ;
+$text-color: #283645;
+
+html {
+	box-sizing: border-box;
+}
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
 }
 
+body {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	color: $text-color;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+h1, h2, h3, h4, h5, b {
+	margin: 0;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+h1 {
+}
+h2,
+b {
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: 300;
+}
+h3 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+}
+p {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+.button {
+	text-decoration: none;
+}
