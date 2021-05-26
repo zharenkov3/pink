@@ -1,0 +1,38 @@
+@mixin min320 {
+	@media (min-width: $mobile-width) {
+		@content
+	}
+}
+@mixin min660 {
+	@media (min-width: $tablet-width) {
+		@content
+	}
+}
+@mixin min960 {
+	@media (min-width: $desktop-width) {
+		@content
+	}
+}
+
+
+@mixin max320 {
+	@media (max-width: $mobile-width) {
+		@content
+	}
+}
+@mixin max660 {
+	@media (max-width: $tablet-width) {
+		@content
+	}
+}
+@mixin max960 {
+	@media (max-width: $desktop-width) {
+		@content
+	}
+}
+
+@mixin retina {
+	@media (min-resolution: $retina-dpi) {
+		@content
+	}
+}

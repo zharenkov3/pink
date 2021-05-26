@@ -1,13 +1,4 @@
-// $h2-color: # ;
-// $h3-color: # ;
-// $text-color: # ;
 
-// $bg-light: # ;
-// $bg-dark: # ;
-// $accent: # ;
-
-// $white: # ;
-// $black: # ;
 $text-color: #283645;
 
 html {
@@ -30,7 +21,7 @@ body {
 .container {
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 10px;
+	padding: 0 20px;
 }
 
 h1, h2, h3, h4, h5, b {
@@ -56,6 +47,15 @@ p {
 	line-height: 24px;
 	font-weight: 400;
 }
-.button {
-	text-decoration: none;
-}
+
+
+
+// html {
+// 	margin: 0;
+// 	min-width: $mobile-width;
+// 	font-family: $font-family-base;
+// 	font-size: $font-size-base;
+// 	line-height: $line-height-base;
+// 	color: $font-color-base;
+// 	background-color: $bg-color-body;
+// }

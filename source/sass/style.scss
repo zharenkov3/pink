@@ -1,21 +1,49 @@
+@import "fonts.scss";
+@import "variables.scss";
 @import "../libs/slick.scss";
-
 @import "mixin/list-reset.scss";
-
-@import "helpers/fonts.scss";
+@import "mixin/media.scss";
 @import "helpers/visually-hidden.scss";
-@import "helpers/viewports.scss";
+@import "helpers/global.scss";
+@import "blocks/button.scss";
+@import "blocks/page.scss";
+@import "blocks/page-header.scss";
+@import "blocks/intro.scss";
 
 
-@import "global.scss";
-@import "page.scss";
-
-@import "page.scss";
-@import "page-header.scss";
-@import "intro.scss";
-
-@import "adaptive/desktop-1200.scss";
-@import "adaptive/tablet-768.scss";
-@import "adaptive/phone-320.scss";
 
 
+
+//@import "helpers/media-queries-order.less";
+//@import "helpers/content-wrapper.less";
+//@import "helpers/mobile-hidden.less";
+//@import "helpers/tablet-hidden.less";
+
+//@import "mixins/ps-drop-shadow.less";
+//@import "blocks/button.less";
+// @import "blocks/page.less";
+// @import "blocks/page-header.less";
+// @import "blocks/header-logo.less";
+// @import "blocks/main-nav.less";
+// @import "blocks/main-menu.less";
+// @import "blocks/store.less";
+// @import "blocks/page-main.less";
+// @import "blocks/page-inner.less";
+// @import "blocks/features.less";
+// @import "blocks/slider-controls.less";
+// @import "blocks/slider-nav.less";
+// @import "blocks/slider-reviews.less";
+// @import "blocks/price.less";
+// @import "blocks/contacts.less";
+// @import "blocks/map.less";
+// @import "blocks/gallery.less";
+// @import "blocks/photo-editor.less";
+// @import "blocks/page-footer.less";
+// @import "blocks/footer-logo.less";
+// @import "blocks/social-links.less";
+// @import "blocks/form-feedback.less";
+// @import "blocks/table-price.less";
+// @import "blocks/photo.less";
+// @import "blocks/form-photo.less";
+// @import "blocks/modal-form.less";
+// @import "blocks/efficiency.less";

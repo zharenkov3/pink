@@ -1,0 +1,154 @@
+.intro {
+	position: relative;
+	width: 100%;
+	min-height: 733px;
+	padding-top: 462px;
+	color: #fff;
+	@include min660 {
+		padding-top: 0;
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		background-color: #1D2631;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+		z-index: -1;
+		@include min320 {
+			background-image: url("../img/bg-back-mobile@1x.jpg");
+			@include retina {
+				background-image: url("../img/bg-back-mobile@2x.jpg");
+			}
+		}
+		@include min660 {
+			background-image: url("../img/bg-back-tablet@1x.jpg");
+			@include retina {
+				background-image: url("../img/bg-back-tablet@2x.jpg");
+			}
+		}
+	}
+}
+.intro {
+	.container{
+		@include min320 {
+			padding: 0;
+			margin: 0;
+		}
+		@include min660 {
+			position: relative;
+			min-height: 733px;
+			width: 660px;
+			margin: 0 auto;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
+}
+.intro__title {
+	position: absolute;
+	top: 95px;
+
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	text-align: center;
+	@include min660 {
+		top: 200px;
+		left: 1px;
+		width: 300px;
+		margin: 0;
+		padding: 0 30px;
+		font-size: 40px;
+		line-height: 48px;
+	}
+}
+.content {
+	width: 100%;
+	background-color: $bg-gray;
+	@include min660 {
+		background-color: none;
+		width: auto;
+	}
+}
+.intro__content {
+	position: relative;
+	margin: 0 auto;
+	width: 320px;
+	padding: 28px 20px 38px 20px;
+	min-height: 271px;
+	z-index: 1;
+	@include min660 {
+		position: absolute;
+		top: 340px;
+		left: 0px;
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		top: -284px;
+		left: 0px;
+		width: 80%;
+		height: 100%;
+		z-index: -1;
+		background-repeat: 	no-repeat;
+		background-size: contain;
+		background-position: top center;
+		@include min320 {
+			background-image: url("../img/iphone-hand-mobile@1x.png");
+			@include retina {
+				background-image: url("../img/iphone-hand-mobile@2x.png");
+			}
+		}
+		@include min660 {
+			top: -121px;
+			left: -5px;
+			width: 660px;
+			height: 545px;
+			background-image: url("../img/iphone-hand-tablet@1x.png");
+			@include retina {
+				background-image: url("../img/iphone-hand-tablet@2x.png");
+			}
+		}
+		@include min960 {
+				// Вот сюда!
+		}
+	}
+}
+.intro__image {
+}
+.intro__download-button {
+	display: block;
+	width: 100%;
+	padding: 17px;
+
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+
+	border: 3px solid white;
+	border-radius: 29px;
+}
+.intro__platform-list {
+	@include list-reset(0px);
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin: 0 auto;
+	margin-top: 32px;
+	width: 204px;
+}
+
+.intro__platform-description {
+	font-weight: 300;
+	text-align: center;
+	margin-top: 31px;
+}

@@ -9,9 +9,11 @@
 //   });
 
 $(document).ready(function() {
-	$('.main-nav__toggle').click(function() {
-		$('.page-header__wrapper-nav').toggleClass('none');
+	$('.burger').click(function() {
+		$('.burger').toggleClass('burger--open');
+		$('.page-header__wrapper-nav').toggleClass('open');
 		$('.page-header').toggleClass('page-header--active');
+		$('.page-header__wrapper-logo').toggleClass('underline');
 	});
 });
 
