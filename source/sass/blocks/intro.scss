@@ -7,6 +7,10 @@
 	@include min660 {
 		padding-top: 0;
 	}
+	@include min960 {
+		min-height: 853px;
+	}
+
 	&:before {
 		content: "";
 		position: absolute;
@@ -31,6 +35,13 @@
 				background-image: url("../img/bg-back-tablet@2x.jpg");
 			}
 		}
+		@include min960 {
+			background-image: url("../img/bg-back-desktop@1x.jpg");
+			@include retina {
+				background-image: url("../img/bg-back-desktop@2x.jpg");
+			}
+		}
+
 	}
 }
 .intro {
@@ -41,14 +52,23 @@
 		}
 		@include min660 {
 			position: relative;
-			min-height: 733px;
 			width: 660px;
+			min-height: 733px;
+			margin: 0 auto;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		@include min960 {
+			position: relative;
+			width: 960px;
+			min-height: 853px;
 			margin: 0 auto;
 			padding-left: 20px;
 			padding-right: 20px;
 		}
 	}
 }
+
 .intro__title {
 	position: absolute;
 	top: 95px;
@@ -68,6 +88,16 @@
 		font-size: 40px;
 		line-height: 48px;
 	}
+	@include min960 {
+		top: 215px;
+		left: 0px;
+		width: 300px;
+		margin: 0;
+		padding: 0 30px;
+		font-size: 50px;
+		line-height: 68.09px;
+	}
+
 }
 .content {
 	width: 100%;
@@ -89,6 +119,12 @@
 		top: 340px;
 		left: 0px;
 	}
+	@include min960 {
+		position: absolute;
+		top: 450px;
+		left: 0px;
+	}
+
 	&:after {
 		content: "";
 		position: absolute;
@@ -117,7 +153,15 @@
 			}
 		}
 		@include min960 {
-				// Вот сюда!
+			top: -242px;
+			left: -82px;
+			width: 1050px;
+			height: 645px;
+			background-image: url("../img/iphone-hand-desktop@1x.png");
+			background-position: 75px 0px;
+			@include retina {
+				background-image: url("../img/iphone-hand-desktop@2x.png");
+			}
 		}
 	}
 }
@@ -136,6 +180,15 @@
 
 	border: 3px solid white;
 	border-radius: 29px;
+	&:hover {
+		color: $pink;
+		background-color: $white;
+	}
+	&:active {
+		color: $pink-rgba-lighten;
+		background-color: $white;
+	}
+
 }
 .intro__platform-list {
 	@include list-reset(0px);
@@ -145,10 +198,16 @@
 	margin: 0 auto;
 	margin-top: 32px;
 	width: 204px;
+	@include min960 {
+		margin-top: 67px;
+	}
 }
 
 .intro__platform-description {
 	font-weight: 300;
 	text-align: center;
 	margin-top: 31px;
+	@include min960 {
+		margin-top: 58px;
+	}
 }
