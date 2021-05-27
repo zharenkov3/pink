@@ -20,7 +20,8 @@ $font-family-base: "Open Sans", "Arial", sans-serif;
 
 $black: #000000;
 // $dark-blue: #283645;
-$gray: #1D2631;
+$gray-light: #F2F2F2;
+$gray-dark: #1D2631;
 // $green: #2aab6d;
 // $lightgray: #e5e5e5;
 $pink: #D22856;
@@ -29,7 +30,8 @@ $pink-rgba-lighten: rgba(210, 40, 86, .3);
 $white: #ffffff;
 
 $bg-color-body: $white;
-$bg-gray: $gray;
+$bg-gray-light: $gray-light;
+$bg-gray-dark: $gray-dark;
 // $bg-color-header: @dark-blue;
 
 $font-color-base: #283645;

@@ -31,8 +31,16 @@
 	}
 }
 
+@mixin min320-max660 {
+	@media (min-width: $mobile-width) and (max-width: $tablet-width){
+		@content
+	}
+}
+
+
 @mixin retina {
 	@media (min-resolution: $retina-dpi) {
 		@content
 	}
 }
+

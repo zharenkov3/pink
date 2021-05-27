@@ -101,7 +101,7 @@
 }
 .content {
 	width: 100%;
-	background-color: $bg-gray;
+	background-color: $bg-gray-dark;
 	@include min660 {
 		background-color: none;
 		width: auto;
