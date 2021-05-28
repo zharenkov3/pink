@@ -1,0 +1,138 @@
+.reviews {
+}
+.reviews .container {
+	padding-top: 50px;
+	@include min960 {
+		padding-top: 72px;
+	}
+}
+.visually-hidden {
+}
+.reviews__list {
+	@include min660 {
+		width: 660px;
+		margin: 0 auto;
+	}
+	@include min960 {
+		width: 960px;
+	}
+}
+.slider-list {
+	@include min960 {
+		position: relative;
+		padding-top: 121px;
+		background-image: url("../img/icon-quotes.svg");
+		background-repeat: no-repeat;
+		background-size: 79px 63px;
+		background-position: top center;
+	}
+}
+.reviews__item {
+}
+.slider-item {
+	position: relative;
+	display: flex !important;
+	flex-direction: column;
+	align-items: center;
+}
+.reviews__text {
+	margin-bottom: 44px;
+	text-align: center;
+	@include min660 {
+		font-size: 18px;
+		line-height: 30px;
+		font-weight: 400;
+	}
+	@include min960 {
+		width: 75%;
+	}
+}
+.reviews__author-info {
+}
+.reviews__author-name {
+	margin-bottom: 31px;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	text-align: center;
+	@include min660 {
+		order: 1;
+		margin-bottom: 8px;
+		font-size: 20px;
+		line-height: 30px;
+		font-weight: 700;
+	}
+}
+.reviews__author-descroption {
+	display: none;
+	@include min660 {
+		order: 2;
+		display: block;
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 49px;
+	}
+}
+.reviews-toggles {
+	@include list-reset(0px);
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	@include min960 {
+		display: none !important;
+	}
+	li {
+		margin-right: 13px;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	button {
+		width: 12px;
+		height: 12px;
+		padding: 0;
+		font-size: 0;
+		outline: none;
+		border-radius: 10px;
+		border: 3px solid $white;
+		background-color: #283645;
+		opacity: 0.3;
+	}
+}
+.slick-active {
+	button {
+		width: 12px;
+		height: 12px;
+		border: 3px solid #283645;
+		background-color: $white;
+		opacity: 1;
+	}
+}
+.slick-arrow {
+	position: absolute;
+	top: 50%;
+	width: 22px;
+	height: 41px;
+	background-color: tomato;
+	outline: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	z-index: 3;
+}
+
+.slick-arrow.slick-prev{
+    left: 0;
+    font-size: 0;
+    background: url('../img/icon-review-arrow-left.svg') 0 0 / 100% no-repeat;
+  }
+
+  .slick-arrow.slick-next{
+    right: 0;
+    font-size: 0;
+    background: url('../img/icon-review-arrow-right.svg') 0 0 / 100% no-repeat;
+  }

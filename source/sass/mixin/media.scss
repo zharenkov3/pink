@@ -36,6 +36,12 @@
 		@content
 	}
 }
+@mixin min320-max960 {
+	@media (min-width: $mobile-width) and (max-width: $desktop-width) {
+		@content
+	}
+}
+
 @mixin min660-max960 {
 	@media (min-width: $tablet-width) and (max-width: $desktop-width) {
 		@content
