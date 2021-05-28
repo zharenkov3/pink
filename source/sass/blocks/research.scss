@@ -1,0 +1,65 @@
+.research {
+	@include min320-max660 {
+		display: none;
+	}
+	@include min960 {
+		background-color: $gray-light;
+	}
+}
+.research .container {
+	@include min660 {
+		width: 660px;
+		min-height: 330px;
+		padding-top: 120px;
+		padding-left: 310px + 10px;
+		padding-right: 10px;
+		padding-bottom: 24px;
+		margin: 0 auto;
+		background-image: url("../img/timer-24.svg");
+		background-repeat: no-repeat;
+		background-size: 238px 276px;
+		background-position: bottom left;
+	}
+	@include min960 {
+		width: 960px;
+		min-height: 429px;
+		padding-top: 115px;
+		padding-left: 380px;
+		background-size: 298px 345px;
+		background-position: 0 20%;
+	}
+}
+.research-title {
+	margin-bottom: 24px;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	color: $black;
+	@include min960 {
+		line-height: 30px;
+		.br-tablet {
+			display: none;
+		}
+	}
+}
+.research-text {
+			margin-bottom: 24px;
+	@mixin min660-max960 {
+		.br-desktop {
+			display: none;
+		}
+	}
+	@include min960 {
+		font-size: 18px;
+		line-height: 30px;
+		.br-tablet {
+			display: none;
+		}
+	}
+}
+.research-link {
+	color: $pink;
+	@include min960 {
+		margin-top: 47px;
+	}
+}
