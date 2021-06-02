@@ -1,0 +1,129 @@
+.page__footer {
+	// min-height: 197px;
+	padding: 40px 0px;
+	@include min960 {
+		padding-top: 70px;
+		padding-bottom: 75px;
+	}
+
+}
+.page__footer .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	@include min660 {
+		flex-direction: row;
+		justify-content: center;
+	}
+	@include min960 {
+		justify-content: space-between;
+	}
+}
+.page-footer__logo {
+	@include max660 {
+		margin-bottom: 40px;
+	}
+	&:hover {
+		.letters path {
+			fill: $pink;
+		}
+	}
+	&:active {
+		opacity: .3;
+	}
+}
+.page-footer__social {
+	@include min660 {
+		flex-grow: 1;
+	}
+	@include max660 {
+		margin-bottom: 40px;
+	}
+}
+.social {
+}
+.social__list {
+	@include list-reset(0px);
+	display: flex;
+	justify-content: space-between;
+	width: 172px;
+	margin: 0 auto;
+}
+.social__item {
+	position: relative;
+	width: 48px;
+	height: 48px;
+	border: 3px solid rgba(40, 54, 69, .1);
+	border-radius: 50%;
+	&:hover {
+		border: 3px solid $medium-gray;
+	}
+	&:active {
+		opacity: 0.5;
+		border: 3px solid rgba(40, 54, 69, .1);
+	}
+}
+.social__link {
+	display: block;
+	height: inherit;
+	width: inherit;
+	position: relative;
+}
+.social__link--twitter {
+	position: absolute;
+	content: "";
+	top: -3px;
+	left: -3px;
+	background-image: url("../img/icon-twitter.svg");
+	background-repeat: no-repeat;
+	background-size: 18px 14px;
+	background-position: center center;
+}
+.social__link--facebook {
+	position: absolute;
+	content: "";
+	top: -3px;
+	left: -3px;
+	background-image: url("../img/icon-facebook.svg");
+	background-repeat: no-repeat;
+	background-size: 9px 18px;
+	background-position: center center;
+}
+.social__link--youtube {
+	position: absolute;
+	content: "";
+	top: -3px;
+	left: -2px;
+	background-image: url("../img/icon-youtube.svg");
+	background-repeat: no-repeat;
+	background-size: 15px 13px;
+	background-position: center center;
+}
+.page-footer__copyright {
+}
+.copyright {
+}
+.copyright__link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 154px;
+	height: 34px;
+	text-decoration: none;
+	&:hover {
+		svg path{
+			fill: $medium-gray;
+		}
+	}
+	&:active {
+		svg path {
+			opacity: .3;
+		}
+	}
+}
+.copyright__text {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 400;
+	color: $medium-gray;
+}

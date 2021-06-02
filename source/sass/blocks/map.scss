@@ -1,0 +1,28 @@
+.map {
+	display: block;
+	position: relative;
+	height: 502px;
+	&:after {
+		position: absolute;
+		content: "";
+		top: 0;
+		right: 0;
+		left: 0;
+		height: 104px;
+		background-image: url("https://andreysgra.github.io/pink/img/bg-triangle-white-footer.svg");
+		background-repeat: no-repeat;
+		background-size: 100% 104px;
+		background-position: center top;
+		z-index: 100;
+		@include max960 {
+			background-size: 100% 67px;
+		}
+		@include max660 {
+			background-size: 100% 35px;
+		}
+	}
+}
+.map__interactive{
+	width: 100%;
+	height: 100%;
+}

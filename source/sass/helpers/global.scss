@@ -24,6 +24,7 @@ body {
 	margin: 0 auto;
 	padding: 0 20px;
 	@include min960 {
+		width: 960px;
 		padding: 0 10px;
 	}
 }

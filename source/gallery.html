@@ -2,126 +2,160 @@
 <html class="page" lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
 	<title>Фотографии</title>
 </head>
 <body class="page-body">
 
-	<header>
-		<!-- Шапку скопирую. -->
-	</header>
+	<header class="page-header">
+		<div class="container">
+			<div class="page-header__wrapper">
+				<div class="page-header__wrapper-logo">
+					<a href="" class="page-header__logo">
+						<picture>
+							<source media="(min-width: 960px)" srcset="img/logo-pink-white-desktop.svg" >
+								<source media="(min-width: 660px)" srcset="img/logo-pink-white-tablet.svg" >
+									<img class="page-header__logo-image" src="img/logo-pink-white-mobile.svg" alt="Приложение Pink ">
+								</picture>
+							</a>
 
-	<main class="page-main">
-		<section class="inner">
-			<h1>Фотографии пользователей</h1>
-		</section>
+							<div class="burger burger--closed">
+								<button class="main-nav__toggle" type="button" aria-label="Откурыть меню"></button>
+							</div>
+						</div>
 
-		<section class="main-reviews">
-			<h2 class="reviews__title">Взгляните на фотографии, которые выкладывают пользователи!
-			Видите, как не хватает ваших?</h2>
-			<img src="" alt="" width="1200" height="508">
-			<blockquote class="reviews">
-				<div class="reviews__author-info">
-					<cite class="author__name">Анна</cite>
-					<time class="author__comment-time">(5 минут назад)</time>
-					<span class="author__comment-likes">Нравится: 215</span>
+						<div class="page-header__wrapper-nav">
+							<ul class="main-nav__list site-list">
+								<li class="site-list__item">
+									<a class="site-list__link ">Главная</a>
+								</li>
+								<li class="site-list__item">
+									<a class="site-list__link active" >Фотографии</a>
+								</li>
+								<li class="site-list__item">
+									<a class="site-list__link" href="competition.html" >Конкурс</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
-				<p class="reviews__text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-			</blockquote>
-		</section>
+			</header>
 
-		<section class="reviews-cards">
-			<ul class="reviews__list">
-				<li class="reviews__item">
-					<img src="" alt="" width="300" height="400">
-					<blockquote class="reviews">
-						<div class="reviews__author-info">
-							<cite class="author__name">Левон</cite>
-							<time class="author__comment-time">(5 часов назад)</time>
-							<p class="reviews__text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
-						</div>
-						<span class="author__comment-likes">Нравится: 356</span>
-					</blockquote>
-				</li>
-				<li class="reviews__item">
-					<img src="" alt="" width="300" height="400">
-					<blockquote class="reviews">
-						<div class="reviews__author-info">
-							<cite class="author__name">Антон</cite>
-							<time class="author__comment-time">(12 часов назад)</time>
-							<p class="reviews__text">Соседи будут рады!</p>
-						</div>
-						<span class="author__comment-likes">Нравится: 666</span>
-					</blockquote>
-				</li>
-				<li class="reviews__item">
-					<img src="" alt="" width="300" height="400">
-					<blockquote class="reviews">
-						<div class="reviews__author-info">
-							<cite class="author__name">Борис</cite>
-							<time class="author__comment-time">(20 часов назад)</time>
-							<p class="reviews__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
-						</div>
-						<span class="author__comment-likes">Нравится: 215</span>
-					</blockquote>
-				</li>
-				<li class="reviews__item">
-					<img src="" alt="" width="300" height="400">
-					<blockquote class="reviews">
-						<div class="reviews__author-info">
-							<cite class="author__name">Сергей</cite>
-							<time class="author__comment-time">(25 часов назад)</time>
-							<p class="reviews__text">Самая кубанская в мире!</p>
-						</div>
-						<span class="author__comment-likes">Нравится: 4</span>
-					</blockquote>
-				</li>
-				<li class="reviews__item">
-					<img src="" alt="" width="300" height="400">
-					<blockquote class="reviews">
-						<div class="reviews__author-info">
-							<cite class="author__name">Максим</cite>
-							<time class="author__comment-time">(40 часов назад)</time>
-							<p class="reviews__text">Где снег-то?</p>
-						</div>
-						<span class="author__comment-likes">Нравится: 150</span>
-					</blockquote>
-				</li>
-				<li class="reviews__item">
-					<img src="" alt="" width="300" height="400">
-					<blockquote class="reviews">
-						<div class="reviews__author-info">
-							<cite class="author__name">Надежда</cite>
-							<time class="author__comment-time">(45 часов назад)</time>
-							<p class="reviews__text">Всем GM и взаимные лайки!</p>
-						</div>
-						<span class="author__comment-likes">Нравится: 2560</span>
-					</blockquote>
-				</li>
-			</ul>
-		</section>
+			<main class="page-inner">
+				<h1 class="visually-hidden">Конкурс на самое безбашенное путешествие с Пинк</h1>
+				<section class="intro">
+					<div class="container">
+						<b class="intro__title">Взгляните на жизнь иначе!</b>
+					</div>
+				</section>
 
-		<section class="posting-card">
-			<h2 class="posting-card__title">
-				Затмите их всех! <br>
-				Выкладывайте все, что накопилось в телефоне!
-			</h2>
-			<div class="posting-card__wrapper-filters">
-				<img src="" alt="" class="posting-card__picture" width="300" height="400">
-				<div class="posting-card__filters filters-toggles">
-					<!--  Фильтрация  -->
-				</div>
-				<div class="posting-cards__buttons">
-					<a href="" class="posting-card__upload-button">Запостить</a>
-					<a href="" class="posting-card__cancel-button ">Отмена</a>
-				</div>
-			</div>
-		</section>
-	</main>
+				<!-- <section class="main-reviews">
+					<h2 class="reviews__title">Взгляните на фотографии, которые выкладывают пользователи!
+					Видите, как не хватает ваших?</h2>
+					<img src="" alt="" width="1200" height="508">
+					<blockquote class="reviews">
+						<div class="reviews__author-info">
+							<cite class="author__name">Анна</cite>
+							<time class="author__comment-time">(5 минут назад)</time>
+							<span class="author__comment-likes">Нравится: 215</span>
+						</div>
+						<p class="reviews__text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+					</blockquote>
+				</section>
 
-	<footer>
-		<!--  Скопирую  -->
-	</footer>
+				<section class="reviews-cards">
+					<ul class="reviews__list">
+						<li class="reviews__item">
+							<img src="" alt="" width="300" height="400">
+							<blockquote class="reviews">
+								<div class="reviews__author-info">
+									<cite class="author__name">Левон</cite>
+									<time class="author__comment-time">(5 часов назад)</time>
+									<p class="reviews__text">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+								</div>
+								<span class="author__comment-likes">Нравится: 356</span>
+							</blockquote>
+						</li>
+						<li class="reviews__item">
+							<img src="" alt="" width="300" height="400">
+							<blockquote class="reviews">
+								<div class="reviews__author-info">
+									<cite class="author__name">Антон</cite>
+									<time class="author__comment-time">(12 часов назад)</time>
+									<p class="reviews__text">Соседи будут рады!</p>
+								</div>
+								<span class="author__comment-likes">Нравится: 666</span>
+							</blockquote>
+						</li>
+						<li class="reviews__item">
+							<img src="" alt="" width="300" height="400">
+							<blockquote class="reviews">
+								<div class="reviews__author-info">
+									<cite class="author__name">Борис</cite>
+									<time class="author__comment-time">(20 часов назад)</time>
+									<p class="reviews__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+								</div>
+								<span class="author__comment-likes">Нравится: 215</span>
+							</blockquote>
+						</li>
+						<li class="reviews__item">
+							<img src="" alt="" width="300" height="400">
+							<blockquote class="reviews">
+								<div class="reviews__author-info">
+									<cite class="author__name">Сергей</cite>
+									<time class="author__comment-time">(25 часов назад)</time>
+									<p class="reviews__text">Самая кубанская в мире!</p>
+								</div>
+								<span class="author__comment-likes">Нравится: 4</span>
+							</blockquote>
+						</li>
+						<li class="reviews__item">
+							<img src="" alt="" width="300" height="400">
+							<blockquote class="reviews">
+								<div class="reviews__author-info">
+									<cite class="author__name">Максим</cite>
+									<time class="author__comment-time">(40 часов назад)</time>
+									<p class="reviews__text">Где снег-то?</p>
+								</div>
+								<span class="author__comment-likes">Нравится: 150</span>
+							</blockquote>
+						</li>
+						<li class="reviews__item">
+							<img src="" alt="" width="300" height="400">
+							<blockquote class="reviews">
+								<div class="reviews__author-info">
+									<cite class="author__name">Надежда</cite>
+									<time class="author__comment-time">(45 часов назад)</time>
+									<p class="reviews__text">Всем GM и взаимные лайки!</p>
+								</div>
+								<span class="author__comment-likes">Нравится: 2560</span>
+							</blockquote>
+						</li>
+					</ul>
+				</section>
 
-</body>
-</html>
+				<section class="posting-card">
+					<h2 class="posting-card__title">
+						Затмите их всех! <br>
+						Выкладывайте все, что накопилось в телефоне!
+					</h2>
+					<div class="posting-card__wrapper-filters">
+						<img src="" alt="" class="posting-card__picture" width="300" height="400">
+						<div class="posting-card__filters filters-toggles">
+							<!--  Фильтрация  -->
+						</div>
+						<div class="posting-cards__buttons">
+							<a href="" class="posting-card__upload-button">Запостить</a>
+							<a href="" class="posting-card__cancel-button ">Отмена</a>
+						</div>
+					</div>
+				</section>
+			</main>
+ -->
+			<footer>
+				<!--  Скопирую  -->
+			</footer>
+
+		</body>
+		</html>
