@@ -1,0 +1,18 @@
+.page-inner {
+  // .features-title-wrapper {
+  // }
+  .features-title {
+    font-size: 14px;
+    line-height: 30px;
+    @include max660 {
+      .br-320 {
+        display: auto;
+      }
+    }
+    @include min660 {
+      .br-320 {
+        display: none;
+      }
+    }
+  }
+}
