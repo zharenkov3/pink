@@ -1,0 +1,134 @@
+.competition__form {
+	display: flex;
+	flex-wrap: wrap;
+}
+.competition-form__fieldset {
+	padding-top: 42px;
+	padding-bottom: 44px;
+	padding: 0 20px;
+	margin: 0;
+	border: none;
+	legend {
+		font-size: 14px;
+		line-height: 18px;
+		text-transform: uppercase;
+		text-align: center;
+		color: $pink;
+	}
+	label {
+		margin-left: 22px;
+		font-size: 14px;
+		line-height: 30px;
+		font-weight: 400;
+		// text-transform: uppercase;
+		color: $pink;
+	}
+	input {
+		width: 100%;
+		height: 59px;
+		padding: 23px 10px;
+		border: 2px solid $lightgray;
+		border-radius: 1px;
+		&:hover,
+		&:focus,
+		&:active {
+			border: 2px solid $pink;
+		}
+	}
+}
+.competition-form__input-wrapper {
+
+}
+.competition-form--user {
+	order: 0;
+	display: flex;
+	flex-wrap: wrap;
+	.competition-form__input-wrapper {
+		margin-bottom: 25px;
+		&:last-child {
+			margin-bottom: 44px;
+		}
+	}
+	label {
+		text-transform: uppercase;
+	}
+}
+.competition-form--device {
+	order: 3;
+}
+.competition-form--contacts {
+	order: 2;
+	@include min320-max660{
+		legend {
+			display: none;
+		}
+	}
+}
+
+.competition-form--achievements {
+	background-color: $gray-light;
+	width: 100%;
+	order: 1;
+	legend {
+		display: block;
+		width: 240px;
+		padding-top: 42px;
+		margin-bottom: 44px;
+	}
+	input {
+		height: 35px;
+		width: 35px;
+	}
+	label {
+		position: relative;
+		margin-left: 59px;
+		font-size: 18px;
+		line-height: 30px;
+		color: $medium-gray;
+		cursor: pointer;
+		user-select: none;
+	}
+	.competition-form__input-wrapper {
+		display: flex;
+		align-items: center;
+		margin-bottom: 47px;
+	}
+	.competition-form--checkbox:hover + label,
+	.competition-form--checkbox:focus + label {
+		color: $pink;
+	}
+	.competition-form--checkbox + label:before {
+		position: absolute;
+		content: "";
+		left: -55px;
+		top: -2px;
+		width: 35px;
+		height: 35px;
+		border: 2px solid #E5E5E5;
+		border-radius: 1px;
+	}
+	.competition-form--checkbox:checked + label:after {
+		position: absolute;
+		content: "";
+		left: -49px;
+		top: 7px;
+		width: 22px;
+		height: 16px;
+		background-color: $white;
+		background-image: url("../img/checkbox-form.svg");
+		}background-repeat: no-repeat;
+		background-position: 0 0;
+	}
+
+	.competition-form--message {
+		order: 4;
+	}
+	.competition-form__button-wrapper {
+		order: 5;
+	}
+	.corner-button {
+	}
+	.button--green {
+	}
+	.legend-bottom {
+	}
