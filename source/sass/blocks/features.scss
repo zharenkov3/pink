@@ -45,7 +45,7 @@
 		line-height: 39px;
 	}
 	@include max660 {
-		br {
+		.br-main-page {
 			display: none;
 		}
 	}
@@ -167,5 +167,37 @@
 		margin-top: 35px;
 		font-size: 18px;
 		line-height: 30px;
+	}
+}
+
+// Gallery
+
+
+
+.page__main-inner {
+
+	.features-titles {
+		width: 100%;
+	}
+	.features-title {
+		margin: 0 auto;
+		padding: 0;
+		font-size: 14px;
+		line-height: 30px;
+		@include min660 {
+			font-size: 18px;
+			width: 450px;
+			.br-320 {
+				display: none;
+			}
+			@include min960 {
+				width: 600px;
+			}
+		}
+	}
+	.form-phrase-mobile {
+		@include max660 {
+			display: none;
+		}
 	}
 }

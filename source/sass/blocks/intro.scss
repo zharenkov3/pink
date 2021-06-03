@@ -212,3 +212,34 @@
 	}
 }
 
+// Gallery
+
+.page__main-inner {
+	.intro {
+		min-height: 237px;
+		padding-top: 102px;
+		@include min660 {
+			min-height: 440px;
+			padding-top: 191px;
+		}
+		@include min960 {
+			min-height: 394px;
+		}
+		.intro__title {
+			position: static;
+			width: 280px;
+			margin: 0 auto;
+			font-size: 24px;
+			line-height: 32px;
+			text-align: center;
+			@include min660 {
+				width: 680px;
+				font-size: 50px;
+				line-height: 68px;
+			}
+			@include min960 {
+				width: 960px;
+			}
+		}
+	}
+}
