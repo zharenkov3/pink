@@ -100,6 +100,7 @@ const copy = (done) => {
     .src(
       [
         "source/fonts/*.{woff2,woff}",
+        "source/libs/*.{js,scss}",
         "source/*.ico",
         "source/img/**/*.svg",
         "!source/img/icons/*.svg",
